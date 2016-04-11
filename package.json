@@ -1,0 +1,17 @@
+{
+    "name": "testingqueue",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "firebase": "2.4.2",
+        "firebase-queue": "1.3.0"
+    }
+}
