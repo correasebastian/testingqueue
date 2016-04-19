@@ -14,7 +14,7 @@ var queue = new Queue(ref, function(data, progress, resolve, reject) {
     //     resolve('ok');
     // }, 5000);
 
-    // using sync operations work fine, but no async
+    // // using sync operations work fine, but no async
     resolve();
 })
 
