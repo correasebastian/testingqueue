@@ -9,13 +9,15 @@ var queue = new Queue(ref, function(data, progress, resolve, reject) {
     // Do some work
     progress(50);
 
-    // // Finish the task asynchronously is not working
-    // setTimeout(function() {
-    //     resolve('ok');
-    // }, 5000);
+    // Finish the task asynchronously is not working
+    setTimeout(function() {
+        resolve('ok');
+    }, 5000);
 
-    // // using sync operations work fine, but no async
-    resolve();
+
+//my enviroment: OS : windows server 2012 r2, nodejs 5.10.1
+    // // // using sync operations work fine, but no async
+    // resolve();
 })
 
    // test
